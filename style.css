@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    background-color: #e7eaf7; 
+    padding: 50px;
+}
+
+
+h1 {
+    color: #9752cfe5; 
+    font-size: 45px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#taskinput {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #4a69ce; 
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+button {
+    background-color: #9752cfe5; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+
+}
+
+button:hover {
+    background-color: #d35ab9; 
+}
+
+
+#tasklist {
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+li {
+    background-color: white; 
+    border: 1px solid #4a69ce; 
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.delete {
+    color: red;
+    cursor: pointer;
+    padding: 0 12px;
+    border-radius: 50%;
+}
+
+.delete:hover {
+    background-color: #fd685d; 
+}
